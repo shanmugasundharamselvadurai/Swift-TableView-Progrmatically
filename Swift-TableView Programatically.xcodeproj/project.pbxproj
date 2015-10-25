@@ -13,6 +13,7 @@
 		631440411BDBEF0B00E1E6C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631440401BDBEF0B00E1E6C9 /* Images.xcassets */; };
 		631440441BDBEF0B00E1E6C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 631440421BDBEF0B00E1E6C9 /* LaunchScreen.xib */; };
 		631440501BDBEF0B00E1E6C9 /* Swift_TableView_ProgramaticallyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6314404F1BDBEF0B00E1E6C9 /* Swift_TableView_ProgramaticallyTests.swift */; };
+		63F0C2211BDD38F200C306D8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F0C2201BDD38F200C306D8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		631440491BDBEF0B00E1E6C9 /* Swift-TableView ProgramaticallyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-TableView ProgramaticallyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6314404E1BDBEF0B00E1E6C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6314404F1BDBEF0B00E1E6C9 /* Swift_TableView_ProgramaticallyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_TableView_ProgramaticallyTests.swift; sourceTree = "<group>"; };
+		63F0C2201BDD38F200C306D8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				631440391BDBEF0B00E1E6C9 /* AppDelegate.swift */,
 				6314403B1BDBEF0B00E1E6C9 /* ViewController.swift */,
+				63F0C2201BDD38F200C306D8 /* DetailViewController.swift */,
 				6314403D1BDBEF0B00E1E6C9 /* Main.storyboard */,
 				631440401BDBEF0B00E1E6C9 /* Images.xcassets */,
 				631440421BDBEF0B00E1E6C9 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F0C2211BDD38F200C306D8 /* DetailViewController.swift in Sources */,
 				6314403C1BDBEF0B00E1E6C9 /* ViewController.swift in Sources */,
 				6314403A1BDBEF0B00E1E6C9 /* AppDelegate.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				631440551BDBEF0B00E1E6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		631440561BDBEF0B00E1E6C9 /* Build configuration list for PBXNativeTarget "Swift-TableView ProgramaticallyTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				631440581BDBEF0B00E1E6C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
